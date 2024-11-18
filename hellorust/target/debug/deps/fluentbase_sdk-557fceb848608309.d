@@ -1,0 +1,12 @@
+/Users/alex/Desktop/newblend/hellorust/target/debug/deps/libfluentbase_sdk-557fceb848608309.rmeta: /Users/alex/.cargo/git/checkouts/fluentbase-7646915b8a80fc76/d9b9b3b/crates/sdk/src/lib.rs /Users/alex/.cargo/git/checkouts/fluentbase-7646915b8a80fc76/d9b9b3b/crates/sdk/src/bindings.rs /Users/alex/.cargo/git/checkouts/fluentbase-7646915b8a80fc76/d9b9b3b/crates/sdk/src/macros.rs /Users/alex/.cargo/git/checkouts/fluentbase-7646915b8a80fc76/d9b9b3b/crates/sdk/src/journal.rs /Users/alex/.cargo/git/checkouts/fluentbase-7646915b8a80fc76/d9b9b3b/crates/sdk/src/rwasm.rs /Users/alex/.cargo/git/checkouts/fluentbase-7646915b8a80fc76/d9b9b3b/crates/sdk/src/shared.rs /Users/alex/.cargo/git/checkouts/fluentbase-7646915b8a80fc76/d9b9b3b/crates/sdk/src/storage.rs /Users/alex/.cargo/git/checkouts/fluentbase-7646915b8a80fc76/d9b9b3b/crates/sdk/src/types.rs
+
+/Users/alex/Desktop/newblend/hellorust/target/debug/deps/fluentbase_sdk-557fceb848608309.d: /Users/alex/.cargo/git/checkouts/fluentbase-7646915b8a80fc76/d9b9b3b/crates/sdk/src/lib.rs /Users/alex/.cargo/git/checkouts/fluentbase-7646915b8a80fc76/d9b9b3b/crates/sdk/src/bindings.rs /Users/alex/.cargo/git/checkouts/fluentbase-7646915b8a80fc76/d9b9b3b/crates/sdk/src/macros.rs /Users/alex/.cargo/git/checkouts/fluentbase-7646915b8a80fc76/d9b9b3b/crates/sdk/src/journal.rs /Users/alex/.cargo/git/checkouts/fluentbase-7646915b8a80fc76/d9b9b3b/crates/sdk/src/rwasm.rs /Users/alex/.cargo/git/checkouts/fluentbase-7646915b8a80fc76/d9b9b3b/crates/sdk/src/shared.rs /Users/alex/.cargo/git/checkouts/fluentbase-7646915b8a80fc76/d9b9b3b/crates/sdk/src/storage.rs /Users/alex/.cargo/git/checkouts/fluentbase-7646915b8a80fc76/d9b9b3b/crates/sdk/src/types.rs
+
+/Users/alex/.cargo/git/checkouts/fluentbase-7646915b8a80fc76/d9b9b3b/crates/sdk/src/lib.rs:
+/Users/alex/.cargo/git/checkouts/fluentbase-7646915b8a80fc76/d9b9b3b/crates/sdk/src/bindings.rs:
+/Users/alex/.cargo/git/checkouts/fluentbase-7646915b8a80fc76/d9b9b3b/crates/sdk/src/macros.rs:
+/Users/alex/.cargo/git/checkouts/fluentbase-7646915b8a80fc76/d9b9b3b/crates/sdk/src/journal.rs:
+/Users/alex/.cargo/git/checkouts/fluentbase-7646915b8a80fc76/d9b9b3b/crates/sdk/src/rwasm.rs:
+/Users/alex/.cargo/git/checkouts/fluentbase-7646915b8a80fc76/d9b9b3b/crates/sdk/src/shared.rs:
+/Users/alex/.cargo/git/checkouts/fluentbase-7646915b8a80fc76/d9b9b3b/crates/sdk/src/storage.rs:
+/Users/alex/.cargo/git/checkouts/fluentbase-7646915b8a80fc76/d9b9b3b/crates/sdk/src/types.rs:

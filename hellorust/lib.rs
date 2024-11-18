@@ -15,8 +15,8 @@ struct MiniBaccarat<SDK: SharedAPI> {
 }
 
 pub trait MiniBaccaratAPI {
-    fn startGame(&self) -> String;
-    fn getResult(&self) -> String;
+    fn startGame(&mut self) -> String;
+    fn getResult(&mut self) -> String;
     fn drawCard(&mut self) -> u8;
 }
 
@@ -49,7 +49,7 @@ fn build_shoe() -> Vec<u8> {
 #[router(mode = "solidity")]
 impl<SDK: SharedAPI> MiniBaccaratAPI for MiniBaccarat<SDK> {
     #[function_id("startGame()")]
-    fn startGame(&self) -> String {
+    fn startGame(&mut self) -> String {
         
         // Initialize variables
         let mut player_cards = Vec::new();
@@ -142,11 +142,11 @@ impl<SDK: SharedAPI> MiniBaccaratAPI for MiniBaccarat<SDK> {
         self.sdk
             .write_storage(GAME_RESULT_KEY, U256::from_limbs([result as u64, 0, 0, 0]));
 
-        "GAME STARTED".to_string();
+        "GAME STARTED".to_string()
     }
 
     #[function_id("getResult()")]
-    fn getResult(&self) -> String {
+    fn getResult(&mut self) -> String {
         let result = self.sdk.storage(&GAME_RESULT_KEY);
         match u256_to_u32(&result) {
             1 => "Player wins".to_string(),

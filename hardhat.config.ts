@@ -1,7 +1,9 @@
 import { HardhatUserConfig } from "hardhat/types";
 import "hardhat-deploy";
 import "@nomicfoundation/hardhat-toolbox";
-import "./tasks/greeting"
+import "./tasks/startgame"
+import "./tasks/getscore"
+
 
 require("dotenv").config();
 
